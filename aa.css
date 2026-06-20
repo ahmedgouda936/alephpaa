@@ -1,0 +1,31 @@
+.parent {
+    background-color: gold;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    cursor: pointer;
+}
+.parent div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.parent .item {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    width: 46px;
+    cursor: pointer;
+}
+div #dd {
+    background-color: black;
+    color: rgb(245, 10, 10);
+    padding: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+body {
+    background-color: rgb(0, 255, 255);
+}
