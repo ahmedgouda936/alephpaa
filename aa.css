@@ -1,5 +1,5 @@
 .parent {
-    background-color: gold;
+    background-color: rgb(8, 129, 209);
     padding: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -7,17 +7,104 @@
 
     cursor: pointer;
 }
+.cc {
+    text-align: center;
+    
+    margin: 10px;
+    background-color: rgb(3, 245, 164);
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+}
+.hh
+{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+  
+}
+div h1 {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-shadow: 0px 0px 20px rgb(255, 255, 255);
+}
+.cc button{
+    
+    color: #160407ee;
+    font-size: 14px;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 20px  rgb(3, 245, 164);
+}
+.cc #btn1{
+    background-color: rgb(8, 129, 209);
+}
+.cc #btn1{
+    background-color: rgb(8, 129, 209);
+}
+.cc #btn2{
+    background-color: rgb(211, 211, 211);
+}
+.cc #btn3{
+    background-color: rgb(144, 238, 144);
+}
+.cc #btn4{
+    background-color: rgb(255, 215, 0);
+}
+.cc #btn5{
+    background-color: rgb(173, 216, 230);
+}
+.cc #btn6{
+    background-color: rgb(255, 182, 193);
+}
+.cc #btn7{
+    background-color: rgb(240, 128, 128);
+}
+.cc #btn8{
+    background-color: rgb(255, 165, 0);
+}
+.cc #btn9{
+    background-color: rgb(255, 255, 255);
+}
+.cc #btn9{
+    background-color: rgb(255, 255, 255);
+}
+.cc #btn10{
+    background-color: rgb(255, 255, 0);
+}
 .parent div {
     margin: 10px;
     padding: 10px;
     text-align: center;
 }
 .parent .item {
-    background-color: red;
-    color: white;
+    background-color: #7d2ae8;
+    color: #fff;
     font-size: 30px;
     width: 46px;
     cursor: pointer;
+    border-radius: 10px;
+    padding-right: 10px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 20px  #7d2ae8;
+}
+.parent .item:hover {
+    background-color: rgb(7, 236, 95);
+    box-shadow: 0px 0px 40px  rgb(7, 236, 95);
 }
 div #dd {
     background-color: black;
@@ -27,5 +114,5 @@ div #dd {
     font-size: 40px;
 }
 body {
-    background-color: rgb(0, 255, 255);
+    background-color: rgb(9, 150, 245);
 }
