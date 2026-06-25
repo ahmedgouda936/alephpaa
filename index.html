@@ -35,7 +35,7 @@
         <div class="item" onclick="audio19.play()">غَ</div>
         <div class="item" onclick="audio20.play()">فَ</div>
         <div class="item" onclick="audio21.play()">قَ</div>
-        <div class="item" onclick="audio22.play()">كـَ</div>
+        <div class="item" onclick="audio22.play()">كَ</div>
         <div class="item" onclick="audio23.play()">لَ</div>
         <div class="item" onclick="audio24.play()">مَ</div>
         <div class="item" onclick="audio25.play()">نَ</div>
@@ -55,10 +55,24 @@
         <button id="btn9" onclick="document.querySelector('.parent').style.backgroundColor = 'white'"></button>
         <button id="btn10" onclick="document.querySelector('.parent').style.backgroundColor = 'yellow'"></button>
     </div>
+    <div class="zz">
+    <button class="kk">تغيير الخلفية الرئيسية </button>
+    </div>
     <div class="hh">
         <h1 id="dd">إعداد : أ / أحمد جودة</h1>
     </div>
     <script >
+    let ww=document.querySelector(".kk")
+    let randomnum=function(){
+    return Math.floor(Math.random()*256)
+    };
+    let ch=()=>{
+    let rc=`rgb(${randomnum()},${randomnum()},${randomnum()})`;
+    document.body.style.backgroundColor=rc;
+    };
+    ww.addEventListener("click",ch);
+    //window.addEventListener("load",ch);
+        ///////////////////
         const audio1 = new Audio();
         audio1.src = "./hh/aa.m4a";
         const audio2 = new Audio();

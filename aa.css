@@ -26,7 +26,7 @@
     background-color: black;
     padding: 10px;
     border-radius: 10px;
-    height: 80px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -111,8 +111,24 @@ div #dd {
     color: rgb(245, 10, 10);
     padding: 10px;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
 }
 body {
     background-color: rgb(9, 150, 245);
+}
+.kk{
+    background-color: chartreuse;
+    color: rgb(245, 10, 10);
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    font-weight: bold;
+    
+}
+.zz{
+    margin: auto;
+    text-align: center;
 }
